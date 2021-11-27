@@ -14,7 +14,7 @@ import "pure-react-carousel/dist/react-carousel.es.css";
 export default function index() {
   return (
     <div>
-      <div className="flex items-center justify-between h-full w-full absolute z-0">
+      <div className="flex items-center justify-between h-full w-full">
         <div className="w-1/3 bg-white h-full"></div>
         <div className="w-4/6 ml-16 bg-gray-200 h-full"></div>
       </div>
@@ -170,18 +170,7 @@ export default function index() {
                   stroke-linejoin="round"
                 />
               </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M9.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L7.414 9H15a1 1 0 110 2H7.414l2.293 2.293a1 1 0 010 1.414z"
-                  clip-rule="evenodd"
-                />
-              </svg>
+              
             </ButtonBack>
 
             <ButtonNext
@@ -215,20 +204,7 @@ export default function index() {
                   stroke-linejoin="round"
                 />
               </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M14 5l7 7m0 0l-7 7m7-7H3"
-                />
-              </svg>
+              
             </ButtonNext>
           </div>
         </CarouselProvider>

@@ -10,10 +10,8 @@ export default function Pages() {
 
 
   return (
-    <div>
-        
+    <div >
       <Navbar />
-    
       <Home />
       <AboutUs />
       <Error />
