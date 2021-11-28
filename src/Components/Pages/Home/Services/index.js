@@ -8,27 +8,26 @@ import img6 from "../../../../Assetes/Images/image5.jpg";
 
 export default function index() {
   return (
-    <div>
-      <div className=" container mx-auto bg-white">
+    <div className=" container ">
+      <div className="mx-auto bg-white ">
         <section className=" flex bg-light dark:bg-gray-800">
           <div className="container px-6 py-8 mx-auto">
             <div className="section-title flex lg:flex pt-24 justify-items-center ">
-              <h1 className=" md-w-32 text-4xl font-bold text-center  pt-5 ml-24 text-black dark:text-gray-400 lg:text-center lg:px-24 underline md-w-24 ">
+              <h1 className=" md-w-1/2 text-4xl font-bold text-center  pt-4  text- dark:text-gray-400 lg:text-center lg:px-24 uppercase md-w-24 ">
                 What can we help you with...
               </h1>
-              <p className=" dark:text-gray-400 text-center ml-24 mt-4   text-black overflow-hidden dark:text-gray-400 lg:max-w-md md:text-left">
+              <p className=" dark:text-gray-400 text-center ml-24 mt-4 text- overflow-hidden dark:text-gray-400 lg:max-w-md ">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
                 nihil sit debitis totam accusantium et ratione ad maiores. Velit
                 ex esse, officia deserunt quo id vitae magni ad praesentium,
-                voluptates dignissimos non quos? Amet, sit? Eveniet, vitae
-                repudiandae nesciunt illo quae quidem voluptatum excepturi
-                libero.
+                voluptates dignissimos non quos? Amet.
               </p>
             </div>
           </div>
         </section>
-        <section className="grid grid-cols-1 lg:grid-cols-3 py-10 mr-24 lg:gap-3 justify-items-center">
-          <div className="max-w-sm rounded overflow-hidden shadow-lg ml-24">
+        {/* --------------Start Card------->>>>> */}
+        <section className="grid grid-cols-1 lg:grid-cols-3  mr-8 py-10 gap-24 justify-items-center sm:grid-cols-2 md:w-full">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg ">
             <img
               className="w-full rounded-xl  hover:skew-y-12 transition duration-500 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
               src={img1}
@@ -54,7 +53,7 @@ export default function index() {
               </span>
             </div>
           </div>
-          <div className="max-w-sm rounded overflow-hidden shadow-lg ml-24">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg ">
             <img
               className="w-full rounded-xl hover:skew-y-12 transition duration-500 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
               src={img2}
@@ -80,7 +79,7 @@ export default function index() {
               </span>
             </div>
           </div>
-          <div className="max-w-sm rounded overflow-hidden shadow-lg ml-24">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg ">
             <img
               className="w-full rounded-xl hover:skew-y-12 transition duration-500 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
               src={img3}
@@ -106,7 +105,7 @@ export default function index() {
               </span>
             </div>
           </div>
-          <div className="max-w-sm rounded overflow-hidden shadow-lg ml-24">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg ">
             <img
               className="w-full rounded-xl hover:skew-y-12 transition duration-500 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
               src={img4}
@@ -132,7 +131,7 @@ export default function index() {
               </span>
             </div>
           </div>
-          <div className="max-w-sm rounded overflow-hidden shadow-lg ml-24">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg ">
             <img
               className="w-full rounded-xl hover:skew-y-12 transition duration-500 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
               src={img5}
@@ -158,7 +157,7 @@ export default function index() {
               </span>
             </div>
           </div>
-          <div className="max-w-sm rounded overflow-hidden shadow-lg ml-24">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg ">
             <img
               className="w-full rounded-xl hover:skew-y-12 transition duration-500 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
               src={img6}
@@ -185,6 +184,7 @@ export default function index() {
             </div>
           </div>
         </section>
+         {/* --------------End  Card------->>>>> */}
       </div>
     </div>
   );

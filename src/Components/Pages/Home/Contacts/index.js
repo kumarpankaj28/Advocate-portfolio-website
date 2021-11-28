@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function index() {
   return (
     <div>
-      <div className="antiakiased  bg-gray-800 pt-24 pb-24 ">
+      <div className="antiakiased  bg-gray-800 pt-8 pb-8 ">
         <div className="flex  w-full min-h-screen  justify-center items-center ">
           <div className="flex  flex-col space-y-6  bg-green-600 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden ">
             <div className="flex flex-col space-y-8  justify-between">
